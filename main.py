@@ -1,6 +1,18 @@
 import time
 from datetime import datetime
 import random
+lst = [10,2,7,5,4,9,1]
+result = []
+for i in range(len(lst)):
+    el = lst[0]
+    lst.pop(0)
+    nbr = k-el
+    if nbr in lst:
+        break
+result.append(el)
+result.append(nbr)
+print(el,nbr)
+
 # harga_open = 100
 # kode_emiten = 'BBSS'
 # if harga_sekarang > harga_open:
